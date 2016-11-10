@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- Developed by Ryan O'Day for EDUCodes-->
+<!-- Website: http://ryanoday.com -->
+<html>
+    <head>
+        
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<script type="text/javascript" src="lib/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="src/main.js"></script>
+		<script type="text/javascript" src="src/algorithm.js"></script>
+		<script type="text/javascript" src="src/utils.js"></script>
+		<script type="text/javascript" src="cordova.js"></script>
+        <title>Dijkstra's Algorithm</title>
+    </head>
+    <body>
+        <center><h1>Dijkstra's Algorithm</h1></center>
+        <div class="container">
+                <div id="control_buttons" class="btn-group row">
+                    <button id="new_btn" class="btn">New</button>
+                    <button id="start_btn" class="btn">Solve</button>
+                    <button id="clear_btn" class="btn">Clear</button>
+                </div>
+                <div class="row">
+                    <span id="status" class="show-grid"></span>
+                </div>
+                <canvas id="canvas" width="315" height="430" style="border:1px solid;">
+                    oh no it didn't work
+                </canvas>
+            </div>
+	    </div>
+    </body>
+</html>
