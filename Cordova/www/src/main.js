@@ -60,7 +60,7 @@ function init() {
   WIDTH = $('#canvas').width();
   HEIGHT = $('#canvas').height();
   setInterval(draw, 10);
-  init_mouse();
+  //init_mouse();
 }
 function init_mouse() {
   $("canvas").click(function(evt) {
